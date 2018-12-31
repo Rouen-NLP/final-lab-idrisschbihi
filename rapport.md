@@ -15,21 +15,21 @@ On remarque qu'il y a 4 catégories qui se demarquent. En effet Email,memo,Lette
 On peut décider d'entrainer ce modèle en utilisant d'abord la methode de naive bayes multinomiale en utilisant notamment une représentation en bag of words utilisant Countvectorizer.
 
 Après entrainement, les resultats sur les donnèes de test sont les suivants :
-![](./2)
+![2](./2)
 
 On peut remarquer que l'on a une précision qui est à peu près de 65% sur les différentes metrics, donc nos résultats ne sont pas très satisfaisant.
 
 la matrice de confusion nous permet d'avoir plus de détail sur les différentes erreurs
-![](./3)
+![3](./3)
 
 ## MLP
 
 On va donc utiliser un MLP pour essayer d'augmenter nos résultats.
-![](./4)
+![4](./4)
 Nous pouvons remarquer un gain énorme en précision puisque l'on atteint les 76% pour les differentes metrics.
 
 la matrice de confusion nous permet d'avoir plus de détail sur les différentes erreurs.
-![](./5)
+![5](./5)
 
 ## Conclusion
 
